@@ -19,5 +19,5 @@
 - [r]代表可读；
 - [w]代表可写；
 - [x]代表可执行。  
-      <font color=Red>注意：这三个权限的位置不会改变，如果没有权限，就会显示[-]而已。</font>  
-![](https://github.com/DreamStart20181024/StudyNotes/blob/master/Linux%E7%AC%94%E8%AE%B0/img/1227493859FdXT.png)
+		注意：这三个权限的位置不会改变，如果没有权限，就会显示[-]而已。  
+![](https://github.com/DreamStart20181024/StudyNotes/blob/master/Linux%E7%AC%94%E8%AE%B0/img/1227493859FdXT.png)  
