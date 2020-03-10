@@ -20,4 +20,4 @@
 - [w]代表可写；
 - [x]代表可执行。
 
-![] (/img/1227493859FdXT.png)  
+![](https://github.com/DreamStart20181024/StudyNotes/blob/master/Linux%E7%AC%94%E8%AE%B0/img/1227493859FdXT.png)
