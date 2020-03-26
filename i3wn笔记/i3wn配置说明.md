@@ -35,8 +35,8 @@ polybar 配置文件模板路径：/usr/share/dor/polybar/config
 `sudo pacman -S steam`
 
 ### 安装显示器管理工具  
-`sudo pacman -S xorg-xrandr` #显示器配置工具
-`sudo pacman -S arandr` # 图形界面版的双屏管理工具  
+`sudo pacman -S xorg-xrandr #显示器配置工具`
+`sudo pacman -S arandr # 图形界面版的双屏管理工具`
 
 
 
