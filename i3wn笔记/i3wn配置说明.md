@@ -19,20 +19,20 @@ i3wn 配置说明
 `sudo pacman -S picom #使终端透明化`  
 
 ### 安装下载工具  
-`sudo pacman -S qbittorrent`
-`sudo pacman -S transmission-qt`
+`sudo pacman -S qbittorrent`  
+`sudo pacman -S transmission-qt`  
 
 ### 安装文件管理器  
-`sudo pacman -S ranger`
+`sudo pacman -S ranger`  
 
 ### 安装顶部状态栏  
-`sudo pacman -S polybar`
+`sudo pacman -S polybar`  
 polybar 配置文件模板路径：/usr/share/dor/polybar/config  
   使用教程：  
     将配置文件复制到用户根目录下/.config/文件夹下  
 
 ### 安装游戏  
-`sudo pacman -S steam`
+`sudo pacman -S steam`  
 
 ### 安装显示器管理工具  
 `sudo pacman -S xorg-xrandr #显示器配置工具`  
