@@ -149,3 +149,11 @@ Linux命令
 - 功能描述：改变文件或目录的所有者  
 - 范例：$ chown shenchao fengjie  
         改变文件fengjie的所有者为shenchao  
+
+
+### 文件搜索命令  
+- 命令名称： find  
+- 命令所在路径：/bin/find  
+- 执行权限：所有用户  
+- 语法： find [搜索范围] [匹配条件]  
+- 功能描述：文件搜索  
