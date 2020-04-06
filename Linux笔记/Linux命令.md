@@ -193,3 +193,16 @@ Linux命令
           -i ：不区分大小写  
           -v ：排除指定字串  
 - 范例：#gerp mysql /root/install.log  
+
+
+
+
+## 帮助类的命令  
+- man 命令或配置文件  NAME：表示此命令如何使用  
+ 如果配置文件跟命令同时存在需要添加参数 1：表示命令、5：表示配置文件  
+ 例如：
+      man 1 passpwd  
+      man 5 passpwd  
+- whatis 命令  ：只显示NAME部分  
+- apropos 配置文件 ：显示简短的配置文件信息  
+- 命令 --help ：可以中文显示帮助信息  
