@@ -1,0 +1,4 @@
+ID    Name      PHP Linux MySql Average
+1     LimMing   82  95    85    87.66
+2     Sc        74  96    87    86.66
+3     Gao       99  83    93    91.66
