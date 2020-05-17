@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+        <p id="foo1"><a href="#">在setName内部的 obj = new Object(); 实际上是重写了，参数的obj变量；此时setName内部的obj实际上是一个局部变量，它不会更改参数的obj引用的值，当函数结束是，他将会被销毁。</a></p>
+    </div>
+    
+    <script>
+
+        function setName(obj){
+
+            obj.name = "Nicholas!";
+            obj = new Object();
+            // 词句不会更改Name的值。
+            obj.name = "董涛是个猪";
+        }
+        
+        var person = new Object();
+        //调用 setName函数
+        setName(person);
+        alert(person.name);
+        
+    </script>
+</body>
+</html>

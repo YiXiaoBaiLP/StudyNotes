@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+
+    <body>
+        <div>
+
+
+
+
+             obj跟person引用的是同一个对象；所以当obj创建了name属性后，person也会有name属性且他们的值都相同。
+        </div>
+   <script>
+       function setName(obj){
+            obj.name = "Nicholas";
+
+       }
+
+       var person = new Object();
+       setName(person);
+       alert(person.name);
+   </script>
+</html>
