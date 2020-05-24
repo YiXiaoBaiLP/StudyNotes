@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div style="text-align:center">
+		队列方法
+	</div>
+	<div style="text-align:center">
+		
+		shift()：方法可以移除数组中的第一个项并返回该项，同时使数组长度减一。</br>
+		unshift("", "",...)：方法可以向数组之前添加任意多个元素。
+
+		
+	</div>
+	<script>
+
+		//创建一个数组，用来保存各种颜色
+		var colors = new Array();
+
+		//使用 push() 方法向数组中添加元素
+		colors.push("red", "blue", "green");
+
+		// 数组现在长度为3
+		alert(colors.length);
+
+		//使用 pop() 方法获取数组中的最后一个元素，并使数组长度减一并返回这个值
+		alert(colors.pop());
+		//此时数组中已经没有 green 这个元素
+		alert(colors["green"]);
+
+		// 获取 数组中的第一个元素 ，并使长度减一并返回这个值
+		alert(colors.shift());
+		// 此时数组中已经没有 red 这个元素
+		alert(colors["red"]);
+
+		// unshift 方法可以向数组之前添加任意多个元素；与push方法相反
+		colors.unshift("red", "green");
+		
+
+		for( var i = 0 ; i < colors.length; i++ ){
+
+			alert("colors 数组中现在的第" + i + "个元素，这个元素值为：" + colors[i]);
+
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div style="text-align: center;">
+	push() 方法：
+	可以接受任意的参数，把他们逐个添加到数组末尾。</br>
+	pop() 方法：
+	可以将数组的最后一位移除，减少数组的 length 值，然后返回移除项。</br>
+	</div>
+	<script>
+
+	//创建一个数组
+	var colors = ["red",,null,undefined,"blue","yellow","green"];
+//	alert(colors.join("----------"));
+//	alert(colors.join("***********\n"));
+//	
+//
+//	colors.push("red");
+//	console.log(colors);
+//	alert(colors.pop());
+//	console.log(colors.pop());
+	alert(colors.pop());
+	alert(colors.push("null"));
+	alert(colors.pop());
+	console.log(colors.push("Java", "Script", "Is", "淘汰"));
+	alert(colors.pop());
+	console.log(colors);
+	colors.pop();
+	colors.pop();
+	colors.pop();
+	colors.pop();
+	colors.pop();
+	colors.pop();
+	colors.pop();
+	colors.pop();
+
+	alert(colors);
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+
+		//创建一个数组，长度为3
+		var colors= ["red","blue","green"];
+		console.log("colors的长度为：" + colors.length);
+		colors.length = 99;
+		console.log("colors的长度为：" + colors.length);
+		var yiBai = colors.length[101] = "yellow";
+		console.log("colors的第" + yiBai.length +"位为：" + yiBai)
+
+		for(var i = 0; i < yiBai.length; i++){
+			console.log("yiBai的值为："+yiBai[i]);
+
+		}
+	</script>
+</body>
+</html>
