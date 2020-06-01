@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+	<script>
+
+		var numbers = [1,2,3,4,5,6,7,8,9,9];
+		
+
+		// 数组的 every() 方法 接受一个函数 function(数组的值，数组的位置，原数组){}
+		// 这个方法返回一个布尔值
+		// 当所有的值都满足条件时才会返回true 否则返回 false
+		var everyResult = numbers.every(function (item, index, array){
+			//alert(array);
+			return (item > 0);
+		});
+
+		alert(everyResult);
+
+		//当有一个条件满足时返回 true
+		var everySome = numbers.some(function(item, index, array){
+			
+			return (item > 5);
+		});
+
+		alert(everySome);
+	</script>
+</body>
+</html>
