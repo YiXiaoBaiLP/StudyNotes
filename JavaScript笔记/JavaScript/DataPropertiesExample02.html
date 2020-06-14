@@ -7,12 +7,23 @@
 	<script>
 		var person = {};
 		Object.defineProperty(person, "name",{
+			// 将此属性设置为只读，不能更改
 			writable: false,
 			value: "LiuPeng"
 		});
 		alert(person.name);
 		person.name = "Wang Wu";
 		alert(person.name);
+
+
+		var arr = {};
+		Object.defineProperty(arr, "age", {
+			writable: false,
+			value: 28
+		});
+		alert("年龄为：" + arr.age);
+		arr.age = 20;
+		alert("年领更改了吗？" + arr.age);
 	</script>
 </body>
 </html>

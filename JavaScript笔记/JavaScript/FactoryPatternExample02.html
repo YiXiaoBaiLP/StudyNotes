@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+		// 创建一个函数 用于保存必要的信息
+		function createPerson(name, age, job){
+			var o = new Object();
+			o.name = name;
+			o.age = age;
+			o.job = job;
+			o.sayName = function(){
+				alert(this.name);
+			};
+			return o;
+		}
+		
+		var person1 = createPerson("Nicholas", 28, "Software Engineer");
+		var person2 = createPerson("Greg", 29, "Doctor");
+		alert(person1.name);
+		alert(person2.name);
+
+
+		person2.sayName();
+
+	</script>
+</body>
+</html>
