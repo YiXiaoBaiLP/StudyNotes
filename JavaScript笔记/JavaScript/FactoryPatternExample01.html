@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+	
+	function createPerson(name, age, job){
+		var o = new Object();
+		o.name = name;
+		o.age = age;
+		o.job = job;
+		o.sayName = function(){
+			alert(this.name);
+		};
+
+		return o;
+	}
+
+	var person1 = createPerson("Nicholas", 18, "Software Engineer");
+	var person2 = createPerson("Greg", 20, "Doctor");
+	alert(person1.scripty);
+	</script>
+</body>
+</html>

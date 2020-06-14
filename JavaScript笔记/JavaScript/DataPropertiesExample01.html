@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+
+		// 创建了一个 person对象
+		var person = {};
+
+		// 创建了一个 name 属性,它的值为“Nicholas” 并且为只读的。
+		Object.defineProperty(person, "name", {
+			writable: false,
+			value: "Nicholas"
+
+		});
+
+		alert(person.name);
+		person.name = "LiuPeng";
+		alert(person.name);
+	</script>
+</body>
+</html>

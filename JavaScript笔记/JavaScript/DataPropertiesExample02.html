@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+	<script>
+		var person = {};
+		Object.defineProperty(person, "name",{
+			writable: false,
+			value: "LiuPeng"
+		});
+		alert(person.name);
+		person.name = "Wang Wu";
+		alert(person.name);
+	</script>
+</body>
+</html>
